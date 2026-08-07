@@ -10,10 +10,10 @@ import (
 	"github.com/newrelic/go-agent/v3/integrations/nrredis-v9"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-boilerplate/internal/config"
-	"github.com/sriniously/go-boilerplate/internal/database"
-	"github.com/sriniously/go-boilerplate/internal/lib/job"
-	loggerPkg "github.com/sriniously/go-boilerplate/internal/logger"
+	"github.com/bhaskarvb28/go-boilerplate/internal/config"
+	"github.com/bhaskarvb28/go-boilerplate/internal/database"
+	"github.com/bhaskarvb28/go-boilerplate/internal/lib/job"
+	loggerPkg "github.com/bhaskarvb28/go-boilerplate/internal/logger"
 )
 
 type Server struct {
