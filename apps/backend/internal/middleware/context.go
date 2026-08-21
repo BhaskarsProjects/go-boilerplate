@@ -6,8 +6,8 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/newrelic/go-agent/v3/newrelic"
 	"github.com/rs/zerolog"
-	"github.com/bhaskarvb28/go-boilerplate/internal/logger"
-	"github.com/bhaskarvb28/go-boilerplate/internal/server"
+	"github.com/bhaskarvb28/tasker/internal/logger"
+	"github.com/bhaskarvb28/tasker/internal/server"
 )
 
 const (

@@ -38,12 +38,12 @@ export const OpenAPI = Object.assign(
       openapi: "3.0.2",
       info: {
         version: "1.0.0",
-        title: "KSRA REST API - Documentation",
-        description: "KSRA REST API - Documentation",
+        title: "Go Todo Application - Documentation",
+        description: "GO TODO REST API - Documentation",
       },
       servers: [
         {
-          url: "http://localhost:8080",
+          url: "http://localhost:8080/api",
           description: "Local Server",
         },
       ],

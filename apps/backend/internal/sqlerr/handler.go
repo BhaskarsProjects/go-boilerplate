@@ -2,12 +2,12 @@ package sqlerr
 
 import (
 	"database/sql"
-	"errors"
 	"fmt"
 	"regexp"
 	"strings"
+	"errors"
 
-	"github.com/bhaskarvb28/go-boilerplate/internal/errs"
+	"github.com/bhaskarvb28/tasker/internal/errs"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"

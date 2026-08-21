@@ -11,7 +11,7 @@ import (
 	"github.com/newrelic/go-agent/v3/newrelic"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/pkgerrors"
-	"github.com/bhaskarvb28/go-boilerplate/internal/config"
+	"github.com/bhaskarvb28/tasker/internal/config"
 )
 
 // LoggerService manages New Relic integration and logger creation
